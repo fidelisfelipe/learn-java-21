@@ -44,7 +44,24 @@ learn-java-21/
 
 ## Building the Project
 
-To compile the project:
+### Option 1: Using Build Scripts (Recommended)
+
+For quick building without Maven dependencies:
+
+```bash
+# Make scripts executable (first time only)
+chmod +x build.sh run.sh
+
+# Build the project
+./build.sh
+
+# Run the application
+./run.sh
+```
+
+### Option 2: Using Maven
+
+To compile the project with Maven:
 
 ```bash
 mvn clean compile
@@ -52,13 +69,25 @@ mvn clean compile
 
 ## Running the Application
 
-To run the main application:
+### Using the run script:
+
+```bash
+./run.sh
+```
+
+### Using Maven:
 
 ```bash
 mvn exec:java -Dexec.mainClass="com.learn.java21.Main"
 ```
 
-Or build and run the JAR:
+### Using Java directly:
+
+```bash
+java --enable-preview -cp target/classes com.learn.java21.Main
+```
+
+Or build and run the JAR with Maven:
 
 ```bash
 mvn clean package
