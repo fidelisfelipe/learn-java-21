@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 
 /**
  * Demonstrates Virtual Threads (JEP 444)
- * Now a standard feature in Java 21
+ * Standard feature in Java 21
  */
 public class VirtualThreadExample {
     

@@ -2,7 +2,7 @@ package com.learn.java21;
 
 /**
  * Demonstrates Record Patterns (JEP 440)
- * A preview feature in Java 21
+ * Standard feature in Java 21
  */
 public class RecordPatternExample {
     

@@ -33,22 +33,28 @@ else
 fi
 
 # Compile test sources (if JUnit is available)
+# Note: This script looks for JUnit JARs in /tmp for quick testing
+# For production use, consider using Maven to manage dependencies
 if [ -f "/tmp/junit-jupiter-api-5.10.1.jar" ]; then
     echo ""
     echo "Compiling test sources..."
     javac --enable-preview -source 21 \
         -cp "target/classes:/tmp/*" \
         -d target/test-classes \
-        src/test/java/com/learn/java21/*.java 2>&1 | grep -v "warning: unknown enum constant"
+        src/test/java/com/learn/java21/*.java 2>&1 | \
+        grep -E "(error:|[0-9]+ error)" || true
     
-    if [ $? -eq 0 ]; then
+    # Check compilation result from pipe status
+    if [ ${PIPESTATUS[0]} -eq 0 ]; then
         echo "✓ Test sources compiled successfully"
+        echo "  Note: Some warnings about API Guardian annotations are expected"
     else
         echo "✗ Failed to compile test sources"
     fi
 else
     echo ""
     echo "Skipping tests (JUnit not found in /tmp)"
+    echo "To compile tests, download JUnit JARs to /tmp or use Maven"
 fi
 
 echo ""

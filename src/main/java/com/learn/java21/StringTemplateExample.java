@@ -2,7 +2,7 @@ package com.learn.java21;
 
 /**
  * Demonstrates String Templates (JEP 430)
- * A preview feature in Java 21
+ * Preview feature in Java 21
  */
 public class StringTemplateExample {
     
