@@ -9,13 +9,39 @@ Java SE 21 Developer Certified Professional
 - Language: English
 - Price: $250 USD
 
-Java Origens
+- Topics
+    - Introductions: [introduction.md](introduction.md)
+    - Basic Java
+    - Operatons
+    - Arrays
+    - Control Flow Statements
+    - Methods
+    - Java Object-Oriented
+      Programming
+    - Wrapper Classes, Auto-Boing and
+      Unboxing
+    - String
+    - Collections
+    - Exceptions Handling in Java
+    - Enum Types
+    - Lambda Expression
+    - Stream API
+    - Date&Time
+    - Java IO - Imput;Output
+    - Overview of Threads
+    - Thread Creation and Management
+    - Synchronization and Concurrency
+      Control
+    - High-level Concurrency APIs
+    - Thread Coordination
+    - Locks and Advanced
+      Synchronization
+    - Concurrent Collections
 
-Java foi criado pela sun microsystems em 1995, e é uma linguagem de programação orientada a objetos criada para fins gerais semelhante o C e C++ e independente de plataforma.
-Ele foi criado originalmente em 1995 para uso em eletrônicos do consumidor.
-Os usos modernos incluem coisas como escrever aplicativos para Internet das Coisas, computação em nuvem etc.
+    - Performance and Scalability
+    - Java Virtual Machine and Threads
+    - Best Practices and Advanced
+      Topics
 
-É amplamente adotado em bilhões de dispositivos, desde cartões inteligêntes, watches, telefones e tablet, computadores e supercomputadores.
 
-O ecossistema Java tem várias adições Java diferêntes que compôem o ecossistema.
 
