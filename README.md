@@ -1,5 +1,7 @@
 # learn-java-21
 
+[![wakatime](https://wakatime.com/badge/user/f64b4287-ccd2-422f-a4b2-01e67f19827b/project/8eb3ba92-dcaa-4682-99ae-69786a979086.svg)](https://wakatime.com/badge/user/f64b4287-ccd2-422f-a4b2-01e67f19827b/project/8eb3ba92-dcaa-4682-99ae-69786a979086)
+
 Java SE 21 Developer Certified Professional
 
 - Exam Number: 1ZO-830
