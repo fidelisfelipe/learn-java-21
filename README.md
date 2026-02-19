@@ -12,9 +12,9 @@ Java SE 21 Developer Certified Professional
 - Price: $250 USD
 
 - Topics
-    - Introductions: [introduction.md](introduction.md)
-    - Basic Java
-    - Operatons
+    - Introductions [introduction.md](introduction.md)
+    - Basic Java [basic-java.md](basic-java.md)
+    - Operatons 
     - Arrays
     - Control Flow Statements
     - Methods
