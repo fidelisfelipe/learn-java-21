@@ -23,11 +23,22 @@ public class BasicOutPut {
 
         int milenium = 2000;
         int ano = 26;
+
+        // O compilador considera uma declaração como uma cadeia de caracteres e as concatena.
+        System.out.println("\n" + "Hello World" + " - " + milenium + ano);
+
+        // para evitar este comportamento, podemos usar o printf para formatar a saída e garantir que os valores sejam tratados como inteiros
+
+        // ou usar parênteses para garantir que a expressão seja avaliada antes da concatenação
+        System.out.println("\n" + "Hello World" + " - " + (milenium + ano));
+
         System.out.printf("%s %s %d", "Hello World", "-", (milenium + ano));
 
         System.out.print("\n");
 
         System.out.printf("%S %s %d", "Hello World", "-", (milenium + ano));
+
+
 
     }
 }

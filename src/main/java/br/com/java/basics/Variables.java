@@ -32,4 +32,46 @@ package br.com.java.basics;
  * - não são inicializadas automaticamente e devem ser atribuídas um valor antes de serem usadas. <br />
  */
 public class Variables {
+
+    public static void main(String[] args) {
+        declaracaoSimples();
+        declaracaoEmLinha();
+        variaveisValidas();
+        variaveisInvalidas();
+    }
+
+    private static void variaveisInvalidas() {
+        System.out.println("Variáveis inválidas:");
+        // Variáveis inválidas
+        // int 3age; // Não pode começar com um número
+        // int age!; // Não pode conter caracteres especiais como ! * - + /
+        // int class; // Não pode usar palavras reservadas
+    }
+
+    private static void variaveisValidas() {
+        System.out.println("Variáveis válidas:");
+        // Variáveis válidas
+        int age, _age, $age, age3, áve, não;
+        //por convenção o $ nunca é usado, mas é permitido
+        //acentos também são permitidos, mas por convensão não utilizados
+    }
+
+    private static void declaracaoEmLinha() {
+        System.out.println("Declaração em linha:");
+        //declaração em linha
+        int a = 10, b = 20, c = a+b; // declaração e inicialização em linha
+
+        System.out.println("A soma de a e b é: " + c);
+    }
+
+    private static void declaracaoSimples() {
+        System.out.println("Declaração simples:");
+
+        //declaraćão simples
+        int a = 10; // Inicialização de a
+        int b = 20; /// Inicialização de b
+        int c = a + b; // Inicialização de c
+
+        System.out.println("A soma de a e b é: " + c);
+    }
 }
