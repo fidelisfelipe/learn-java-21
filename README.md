@@ -14,7 +14,7 @@ Java SE 21 Developer Certified Professional
 - Topics
     - Introductions [introduction.md](introduction.md)
     - Basic Java [basic-java.md](basic-java.md)
-    - Operatons 
+    - Operatons [operators.md](operators.md)
     - Arrays
     - Control Flow Statements
     - Methods
