@@ -1,6 +1,6 @@
 package br.com.java.controlFlow;
 
-public class forLoopStatement {
+public class ForLoopStatement {
     public static void main(String... loopArgs) {
 
         int y;
