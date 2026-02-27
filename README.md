@@ -76,12 +76,12 @@ Java SE 21 Developer Certified Professional
       - [x] infinit loop
       - [x] branching statement
       - [x] label loops
-    - [ ] Methods
-      - [ ] declaration
-      - [ ] types
-      - [ ] returns
-      - [ ] java variable arguments
-      - [ ] method overloading
+    - [x] Methods
+      - [x] declaration
+      - [x] types
+      - [x] returns
+      - [x] java variable arguments
+      - [x] method overloading
     - [ ] Java Object-Oriented Programming
     - [ ] Wrapper Classes, Auto-Boing and Unboxing
     - [ ] String
