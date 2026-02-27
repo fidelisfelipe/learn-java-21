@@ -50,7 +50,7 @@ Java SE 21 Developer Certified Professional
       - [x] variables 
       - [x] data types 
       - [x] numbers
-- type conversion and type casting
+      - [x] type conversion and type casting
     - [x] Operatons [operators.md](operators.md)
       - [x] arithmetc
       - [x] assignment 
