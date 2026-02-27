@@ -13,11 +13,75 @@ Java SE 21 Developer Certified Professional
 
 - Topics
     - [x] Introductions [introduction.md](introduction.md)
+      - [x] Conceitos Fundamentais
+        - [x] Package
+        - [x] Class
+        - [x] Object
+        - [x] Object Oriented Programming (OOP)
+        - [x] Method/Function
+        - [x] Parameter/Argument
+      - [x] Ferramentas de Desenvolvimento (Development Tools)
+        - [x] JDK (Java Development Kit)
+        - [x] Java Compiler
+        - [x] JShell
+        - [x] APIs
+      - [x] Deployment
+        - [x] Instaladores nativos
+        - [x] Empacotamento para nuvem
+        - [x] Microserviços e containers
+      - [x] Interface de Usuário (User Interface Toolkits)
+        - [x] JavaFX
+        - [x] Swing
+        - [x] Java 2D
+        - [x] Bibliotecas de Integração (Integration Libraries)
+      - [x] JDBC
+        - [x] HTTP Client
+        - [x] gRPC
+        - [x] Projeto Panamá
+      - [x] Arquitetura Java
+        - [x] JDK
+        - [x] JRE (Java Runtime Environment)
+        - [x] JVM (Java Virtual Machine)
+        - [x] Bytecode
     - [x] Basic Java [basic-java.md](basic-java.md)
+      - [x] basic input and Output in Java
+      - [x] java comment 
+      - [x] keywords 
+      - [x] variables 
+      - [x] data types 
+      - [x] numbers
+- type conversion and type casting
     - [x] Operatons [operators.md](operators.md)
+      - [x] arithmetc
+      - [x] assignment 
+      - [x] unary
+      - [x] equality and relational
+      - [x] confitional
+      - [x] bit-wise and bit-shift
+      - [x] precedence
     - [x] Arrays
-    - [ ] Control Flow Statements
+      - [x] unidimensional
+      - [x] bidimensional
+      - [x] tridimensional
+      - [x] binary search
+      - [x] ascii table
+    - [x] Control Flow Statements
+      - [x] if else\
+      - [x] ternary operator
+      - [x] for
+      - [x] for each
+      - [x] while
+      - [x] do while
+      - [x] switch case
+      - [x] infinit loop
+      - [x] branching statement
+      - [x] label loops
     - [ ] Methods
+      - [ ] declaration
+      - [ ] types
+      - [ ] returns
+      - [ ] java variable arguments
+      - [ ] method overloading
     - [ ] Java Object-Oriented Programming
     - [ ] Wrapper Classes, Auto-Boing and Unboxing
     - [ ] String
