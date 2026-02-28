@@ -6,7 +6,7 @@
   - [ ] Text Blocks (Java 15): Strings multilinhas.
   - [ ] Switch Expressions (Java 14+): Mais conciso e seguro.
 * Estrutura e Programação Funcional Avançada:
-  - [ ] Sealed Classes (Java 17): Controle refinado sobre herança.
+  - [x] Sealed Classes (Java 17): Controle refinado sobre herança.
   - [ ] Pattern Matching (Java 16-21): Para instanceof e switch, eliminando casts manuais.
   - [ ] API de Coleções (Sequenced Collections): Novo acesso ordenado getFirst()/getLast().
 * Concorrência e Performance (O salto principal):
