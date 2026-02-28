@@ -22,6 +22,9 @@ public class Methods {
 
     }
 
+    //tbm pode ser
+//    static public void main(String[] args) {}
+
     //method de instancia
     public void instancia(){
 

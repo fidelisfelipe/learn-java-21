@@ -52,11 +52,11 @@ Java SE 21 Developer Certified Professional
       - [x] numbers
       - [x] type conversion and type casting
     - [x] Operatons [operators.md](operators.md)
-      - [x] arithmetc
+      - [x] arithmetic
       - [x] assignment 
       - [x] unary
       - [x] equality and relational
-      - [x] confitional
+      - [x] conditional
       - [x] bit-wise and bit-shift
       - [x] precedence
     - [x] Arrays
@@ -66,7 +66,7 @@ Java SE 21 Developer Certified Professional
       - [x] binary search
       - [x] ascii table
     - [x] Control Flow Statements
-      - [x] if else\
+      - [x] if else
       - [x] ternary operator
       - [x] for
       - [x] for each
