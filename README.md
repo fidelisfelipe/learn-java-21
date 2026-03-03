@@ -85,8 +85,8 @@ Java SE 21 Developer Certified Professional
     - [ ] Java Object-Oriented Concept
       - [x] OOP Concept, Object & Class
       - [x] Stack & Heap
-      - [ ] Access Modifiers
-      - [ ] Naming Conventions
+      - [x] Access Modifiers
+      - [x] Naming Conventions
       - [ ] Constructor
       - [ ] Packages and Import
       - [ ] static keyword
@@ -98,7 +98,7 @@ Java SE 21 Developer Certified Professional
       - [ ] Method Overriding
       - [ ] super and this keywords
       - [ ] final keyword
-      - [ ] final keyword
+      - [ ] abstract keyword
       - [ ] Interface
       - [ ] Polymorphism
       - [ ] Encapsulation

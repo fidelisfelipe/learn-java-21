@@ -44,3 +44,23 @@
 > Os elementos da heap são acessíveis globalmente em todo o aplicativo, representando um espaço de memória compartilhado entre todas as threads.
 > Um erro de falta de memória é lançado no caso de esgotamento de espaço na heap
 > A exception referênte a este erro é OutOfMemoryError
+
+## Access Modifiers
+
+### private
+- Same class
+### default
+- Same class
+- Different class in same package
+~~- Subclass~~
+~~- Different Package~~
+### protected
+- Same class
+- Different class in same package
+- Subclass
+- ~~Different Package~~
+### public
+- Same class
+- Different class in same package
+- Subclass
+- Different Package
