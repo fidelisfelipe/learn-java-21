@@ -103,8 +103,8 @@ Java SE 21 Developer Certified Professional
       - [ ] Polymorphism
       - [ ] Encapsulation
       - [ ] Anonymous Class
-      - [ ] Record Class
-      - [ ] var keyword
+      - [x] Record Class
+      - [x] var keyword
     - [ ] Wrapper Classes, Auto-Boing and Unboxing
     - [ ] String
     - [ ] Collections
