@@ -1,5 +1,6 @@
 package br.com.java.basics;
 
+
 import java.util.Scanner;
 
 /**

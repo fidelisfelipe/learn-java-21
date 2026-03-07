@@ -88,7 +88,7 @@ Java SE 21 Developer Certified Professional
       - [x] Access Modifiers
       - [x] Naming Conventions
       - [x] Constructor
-      - [ ] Packages and Import
+      - [x] Packages and Import
       - [ ] static keyword
       - [ ] Nested & Inner Classes
       - [ ] Local inner classes
