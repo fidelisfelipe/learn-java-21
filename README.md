@@ -89,7 +89,7 @@ Java SE 21 Developer Certified Professional
       - [x] Naming Conventions
       - [x] Constructor
       - [x] Packages and Import
-      - [ ] static keyword
+      - [x] static keyword
       - [ ] Nested & Inner Classes
       - [ ] Local inner classes
     - [ ] Java Object-Oriented Programming
