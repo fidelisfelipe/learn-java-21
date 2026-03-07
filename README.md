@@ -87,7 +87,7 @@ Java SE 21 Developer Certified Professional
       - [x] Stack & Heap
       - [x] Access Modifiers
       - [x] Naming Conventions
-      - [ ] Constructor
+      - [x] Constructor
       - [ ] Packages and Import
       - [ ] static keyword
       - [ ] Nested & Inner Classes
