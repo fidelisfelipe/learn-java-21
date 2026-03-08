@@ -15,3 +15,7 @@
 ## Block
 
 - ele é um bloco de instrução dentro da classe que será executado quando a classe for carregada pela promeira vez na jvm
+
+## Nested Class
+
+- As classes aninhadas são também possíveis atravéz do static
