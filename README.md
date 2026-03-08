@@ -90,7 +90,7 @@ Java SE 21 Developer Certified Professional
       - [x] Constructor
       - [x] Packages and Import
       - [x] static keyword
-      - [ ] Nested & Inner Classes
+      - [x] Nested & Inner Classes
       - [ ] Local inner classes
     - [ ] Java Object-Oriented Programming
       - [ ] Inheritance
