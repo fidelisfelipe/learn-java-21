@@ -29,10 +29,8 @@ public class InnerClasses {
                 System.out.println("number is "+ number);
             }
         }
-
         //instance local inner class
         var check = new NumberChecker(number);
         check.print();
-
     }
 }
