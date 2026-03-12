@@ -11,7 +11,7 @@ class Avo{
     public void trabalhaCom(){
         System.out.println("Eletricista");
     }
-    public void trabalhaCom(String novo){
+    void trabalhaCom(String novo){
         System.out.println(novo);
     }
 }

@@ -20,3 +20,9 @@
  - Hierarchical Inheritance
  - Multiple Inheritance (non supported in class, only interface)
  - Hybrid Inheritance (not supported in class, only interface)
+
+# Sobrescrita de Métodos - Override Methods
+
+- Metodos das subclasses com mesmo retorno, nome e assinatura
+- A subclasse pode diminuir a restrição de acesso 
+- A subclasse não pode deixar o método mais restritivo
