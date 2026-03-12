@@ -82,7 +82,7 @@ Java SE 21 Developer Certified Professional
       - [x] returns
       - [x] java variable arguments
       - [x] method overloading
-    - [ ] Java Object-Oriented Concept
+    - [x] Java Object-Oriented Concept
       - [x] OOP Concept, Object & Class
       - [x] Stack & Heap
       - [x] Access Modifiers
@@ -91,18 +91,18 @@ Java SE 21 Developer Certified Professional
       - [x] Packages and Import
       - [x] static keyword
       - [x] Nested & Inner Classes
-      - [ ] Local inner classes
-    - [ ] Java Object-Oriented Programming
-      - [ ] Inheritance
+      - [x] Local inner classes
+    - [x] Java Object-Oriented Programming
+      - [x] Inheritance
       - [x] Sealed Class
-      - [ ] Method Overriding
-      - [ ] super and this keywords
-      - [ ] final keyword
-      - [ ] abstract keyword
-      - [ ] Interface
-      - [ ] Polymorphism
-      - [ ] Encapsulation
-      - [ ] Anonymous Class
+      - [x] Method Overriding
+      - [x] super and this keywords
+      - [x] final keyword
+      - [x] abstract keyword
+      - [x] Interface
+      - [x] Polymorphism
+      - [x] Encapsulation
+      - [x] Anonymous Class
       - [x] Record Class
       - [x] var keyword
     - [ ] Wrapper Classes, Auto-Boing and Unboxing

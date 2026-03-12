@@ -26,3 +26,20 @@
 - Metodos das subclasses com mesmo retorno, nome e assinatura
 - A subclasse pode diminuir a restrição de acesso 
 - A subclasse não pode deixar o método mais restritivo
+
+# Super and This
+
+- "this" é usado para acesso a membros da classe atual
+- "this" é usado para acesso a instancia da classe atual
+- "this" é usado para invocar métodos da classe atual
+- "this" é usado para invocar o construtor da classe atual
+- "this" pode ser passado como argumento referenciando a instancia da classe atual
+- "this" pode ser retonado em um método para retornar a instancia da classe atual
+
+- "super" pode ser usado nos mesmos casos do "this" mas referencia a classe parent
+
+# Final Keyword
+
+- Classes - não podem ser especializadas
+- Metodos - Não podem ser ssobrescritos
+- Variáveis - Não podem ser atibuído novo valor
