@@ -105,8 +105,12 @@ Java SE 21 Developer Certified Professional
       - [x] Anonymous Class
       - [x] Record Class
       - [x] var keyword
-    - [ ] Wrapper Classes, Auto-Boing and Unboxing
-    - [ ] String
+    - [x] Wrapper Classes, Auto-Boing and Unboxing
+      - [x] Conversion Type
+      - [x] Auto-boxing and Auto-unboxing
+    - [x] String
+    - [x] String Buffer
+    - [x] String Builder
     - [ ] Collections
     - [ ] Exceptions Handling in Java
     - [ ] Enum Types
