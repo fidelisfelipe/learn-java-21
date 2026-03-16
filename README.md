@@ -112,6 +112,8 @@ Java SE 21 Developer Certified Professional
     - [x] String Buffer
     - [x] String Builder
     - [ ] Collections
+      - [x] List
+      - [ ] ArrayList
     - [ ] Exceptions Handling in Java
     - [ ] Enum Types
     - [ ] Lambda Expression
