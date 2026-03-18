@@ -112,8 +112,17 @@ Java SE 21 Developer Certified Professional
     - [x] String Buffer
     - [x] String Builder
     - [ ] Collections
-      - [x] List
-      - [ ] ArrayList
+      - [x] List interface
+      - [x] ArrayList
+      - [x] Conversion Between List and Arrays
+      - [ ] Sorting Array List
+      - [ ] Comparator
+      - [ ] Searching ArrayList
+      - [ ] Iterator and LisIterator
+      - [ ] Set Interface
+      - [ ] Queue
+      - [ ] Deque
+      - [ ] Map Interface
     - [ ] Exceptions Handling in Java
     - [ ] Enum Types
     - [ ] Lambda Expression
