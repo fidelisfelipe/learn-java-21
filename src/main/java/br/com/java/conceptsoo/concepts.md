@@ -1,66 +1,102 @@
-# OOP
+# OOP - Conceitos Fundamentais
 
-* Methods of designing and implementing software
-* Increase the flexibility and maintainability
-* Some concepts simplify the software development
-* Object, class, inheritance, polymorphism, abstraction, encapsulation
+---
 
-## Object and Class
+## 1) O que e OOP
 
-* a classe é a declaração de um objeto
-* a partir de uma classe podemos criar vários objetos
-* o objeto é a referencia que contém o endereço de memória do objeto.
+Paradigma de programacao baseado em objetos que representam entidades do mundo real.
+Pilares: **Encapsulamento**, **Heranca**, **Polimorfismo**, **Abstracao**.
 
-## Stack and Heap
+---
 
-- A própria linguagem java é responsável pela gestão da alocação de memória
-- A JVM bifurca a memória em duas entidades distintas: memória de pilha(stack memory) e memória heap (heap memory)
+## 2) Classe e Objeto
 
-### Stack memory
-- Armazena a sequência de execução dos métodos e as variáveis locais
+- **Classe**: molde/template que define campos e comportamentos.
+- **Objeto**: instancia concreta de uma classe; ocupa espaco na heap.
 
-> Sendo assim, a stack mamory se materializa como um espa,co físico na RAM alocado para cada thread em tempo de execução
-> passando a existir, quando uma thread é iniciada
-> O espaço da stack abriga variáveis locais, métodos, tipos de dados primitivos e refeências de objetos.
-> Então, sempre que um método é invocado, um novo bloco se materializa na stack memory para guardar valores primitivos locais e referências a outros objetos dentro do método
-> A stack utiliza o gerenciamento LIFO(last in first out) por sua acessibilidade global
-> Basicamente, ele reserva espaço para referências de variáveis a objetos e resultados parciais
-> O Tempo de vida da memória alocada para a stack se estende até a conclusão da função
-> No caso de espaço insuficiente para a criação de novos objetos, o erro de estouro de pilha é acionado
-> A exception referênte a este erro é StackOverflowError
-> O escopo de um elemento está confinado a suas respectivas threads e é isso que faz com que a JVM estabeleça uma pilha distinta para cada thread
+```java
+class Carro {          // classe (molde)
+    String modelo;
+    int ano;
+    void acelerar() { System.out.println("Acelerando!"); }
+}
 
-### Heap Memory
-- Armazena os objetos que utilizam alocaćão e desaloca,cão dinâmica de memória
+Carro c = new Carro(); // objeto (instancia na heap)
+c.modelo = "Civic";
+```
 
-> A heap ganha vida sempre qua a JVM ´e iniciada e permanece em uso pelo aplicativo durante todo o tempo de execução
-> A heap serve como um espaço de armazenamento, por exemplo, para variáveis, objetos e tipos de referência
-> Portanto, ao criar um objeto, ele invariavelmente toma forma no espaço da memória heap com a stack contendo a referência a ele
+---
 
-> Ao contrário da stack, que possui uma ordem de armazenamento, a heap não adere a ordem específica, portanto, gerencia dinamicamente os blocos de memória
-> Desta forma, o gerenciamento manual da memória é realmente desnecessário
-> O Java facilita do gerenciamento automático da memória por meio de um coletor de lixo que é responsável por excluir
-> os objetos que não estão mais em uso. A memória alocada na heap persiste até que um evento específico ocorra, seja o termino do programa ou a ocorrência de liberação de memória.
-> Os elementos da heap são acessíveis globalmente em todo o aplicativo, representando um espaço de memória compartilhado entre todas as threads.
-> Um erro de falta de memória é lançado no caso de esgotamento de espaço na heap
-> A exception referênte a este erro é OutOfMemoryError
+## 3) Stack e Heap
 
-## Access Modifiers
+| | Stack | Heap |
+|---|---|---|
+| O que armazena | Variaveis locais, referencias, chamadas de metodo | Objetos, arrays |
+| Gerenciamento | LIFO automatico | Garbage Collector |
+| Escopo | Por thread (cada thread tem sua stack) | Compartilhado entre todas as threads |
+| Erro de esgotamento | `StackOverflowError` | `OutOfMemoryError` |
+| Tempo de vida | Ate o metodo retornar | Ate o GC coletar |
 
-### private
-- Same class
-### default
-- Same class
-- Different class in same package
-~~- Subclass~~
-~~- Different Package~~
-### protected
-- Same class
-- Different class in same package
-- Subclass
-- ~~Different Package~~
-### public
-- Same class
-- Different class in same package
-- Subclass
-- Different Package
+```
+Stack (por thread)          Heap (compartilhado)
+┌─────────────────┐         ┌──────────────────────┐
+│ main()          │         │  Carro@0x100          │
+│  c (referencia) ─────────>│    modelo = "Civic"   │
+│  x = 10 (prim.) │         │    ano = 2024          │
+└─────────────────┘         └──────────────────────┘
+```
+
+---
+
+## 4) Modificadores de Acesso
+
+| Modificador | Mesma Classe | Mesmo Pacote | Subclasse | Fora do Pacote |
+|---|:---:|:---:|:---:|:---:|
+| `private` | Sim | Nao | Nao | Nao |
+| *(default)* | Sim | Sim | Nao | Nao |
+| `protected` | Sim | Sim | Sim | Nao |
+| `public` | Sim | Sim | Sim | Sim |
+
+Regra mnemonica: **private < default < protected < public** (crescente em visibilidade).
+
+---
+
+## 5) Pilares do OOP
+
+### Encapsulamento
+- Ocultar detalhes internos; expor apenas o necessario via getters/setters.
+- Campos `private` + metodos `public` de acesso.
+
+### Heranca
+- Subclasse reutiliza campos e metodos da superclasse (`extends`).
+- Java: heranca simples para classes; multipla para interfaces.
+
+### Polimorfismo
+- Mesma interface, comportamentos diferentes.
+- **Em tempo de compilacao**: sobrecarga (overload) — mesmo nome, parametros diferentes.
+- **Em tempo de execucao**: sobrescrita (override) — subclasse redefine metodo do pai.
+
+### Abstracao
+- Expor o *o que* e ocultar o *como*.
+- Implementada com `abstract class` e `interface`.
+
+---
+
+## 6) Convencoes de nomenclatura Java
+
+| Elemento | Convencao | Exemplo |
+|---|---|---|
+| Classe / Interface | PascalCase | `ContaBancaria` |
+| Metodo / Variavel | camelCase | `calcularSaldo` |
+| Constante | UPPER_SNAKE_CASE | `MAX_VALOR` |
+| Pacote | minusculas | `br.com.empresa` |
+
+---
+
+## 7) Pontos criticos para a prova
+
+- `private` nao e herdado, mas existe na memoria (acessivel via metodos `protected/public`).
+- `protected` e visivel para subclasses **mesmo em pacotes diferentes**.
+- Variavel local nao inicializada causa **erro de compilacao**; campo nao inicializado recebe valor padrao.
+- Valores padrao: `int/long/short/byte = 0`, `float/double = 0.0`, `boolean = false`, `char = '\u0000'`, objeto = `null`.
+- Toda classe deriva de `Object` (metodos: `toString`, `equals`, `hashCode`, `getClass`).

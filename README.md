@@ -13,13 +13,18 @@ Java SE 21 Developer Certified Professional
 
 ## Sumario das documentacoes
 
-- Guia central: [`documentacoes.md`](documentacoes.md)
-- Fundamentos: [`introduction.md`](introduction.md), [`basic-java.md`](basic-java.md), [`operators.md`](operators.md)
-- Evolucao da linguagem: [`DELTAJava8to21.md`](DELTAJava8to21.md)
-- OOP: [`src/main/java/br/com/java/conceptsoo/concepts.md`](src/main/java/br/com/java/conceptsoo/concepts.md), [`src/main/java/br/com/java/oopj/definitions.md`](src/main/java/br/com/java/oopj/definitions.md)
-- OOP aplicado: [`src/main/java/br/com/java/oop/constructor/definitions.md`](src/main/java/br/com/java/oop/constructor/definitions.md), [`src/main/java/br/com/java/oop/packages/definition.md`](src/main/java/br/com/java/oop/packages/definition.md), [`src/main/java/br/com/java/oop/statics/definition.md`](src/main/java/br/com/java/oop/statics/definition.md), [`src/main/java/br/com/java/oop/nestedsClasses/definition.md`](src/main/java/br/com/java/oop/nestedsClasses/definition.md), [`src/main/java/br/com/java/oop/innerClasses/definition.md`](src/main/java/br/com/java/oop/innerClasses/definition.md)
-- APIs essenciais: [`src/main/java/br/com/java/wrappers/definition.md`](src/main/java/br/com/java/wrappers/definition.md), [`src/main/java/br/com/java/strings/definitions.md`](src/main/java/br/com/java/strings/definitions.md), [`src/main/java/br/com/java/collections/definitions.md`](src/main/java/br/com/java/collections/definitions.md)
-- Pratica: [`mock-test.md`](mock-test.md)
+> Trilha completa em: [`documentacoes.md`](documentacoes.md)
+
+| # | Topico | Arquivo(s) de definicao |
+|---|---|---|
+| 1 | Fundamentos | [`introduction.md`](introduction.md) · [`basic-java.md`](basic-java.md) · [`operators.md`](operators.md) |
+| 2 | Arrays | `src/.../arrays/` |
+| 3 | Controle de Fluxo e Metodos | `src/.../controlFlow/` · `src/.../methods/` |
+| 4 | OOP Conceitos | [`conceptsoo/concepts.md`](src/main/java/br/com/java/conceptsoo/concepts.md) · [`oop/constructor/definitions.md`](src/main/java/br/com/java/oop/constructor/definitions.md) · [`oop/packages/definition.md`](src/main/java/br/com/java/oop/packages/definition.md) · [`oop/statics/definition.md`](src/main/java/br/com/java/oop/statics/definition.md) · [`oop/nestedsClasses/definition.md`](src/main/java/br/com/java/oop/nestedsClasses/definition.md) · [`oop/innerClasses/definition.md`](src/main/java/br/com/java/oop/innerClasses/definition.md) |
+| 5 | OOP Pratica | [`oopj/definitions.md`](src/main/java/br/com/java/oopj/definitions.md) |
+| 6 | APIs Essenciais | [`wrappers/definition.md`](src/main/java/br/com/java/wrappers/definition.md) · [`strings/definitions.md`](src/main/java/br/com/java/strings/definitions.md) · [`collections/definitions.md`](src/main/java/br/com/java/collections/definitions.md) |
+| 7 | Evolucao Java 8→21 | [`DELTAJava8to21.md`](DELTAJava8to21.md) |
+| 8 | Revisao / Simulado | [`mock-test.md`](mock-test.md) |
 
 ## Roteiro detalhado (checklist)
     - [x] Introductions [introduction.md](introduction.md)
@@ -121,18 +126,18 @@ Java SE 21 Developer Certified Professional
     - [x] String
     - [x] String Buffer
     - [x] String Builder
-    - [ ] Collections
+    - [x] Collections
       - [x] List interface
       - [x] ArrayList
       - [x] Conversion Between List and Arrays
-      - [ ] Sorting Array List
-      - [ ] Comparator
-      - [ ] Searching ArrayList
-      - [ ] Iterator and LisIterator
-      - [ ] Set Interface
-      - [ ] Queue
-      - [ ] Deque
-      - [ ] Map Interface
+      - [x] Sorting Array List
+      - [x] Comparator
+      - [x] Searching ArrayList
+      - [x] Iterator and LisIterator
+      - [x] Set Interface
+      - [x] Queue
+      - [x] Deque
+      - [x] Map Interface
     - [ ] Exceptions Handling in Java
     - [ ] Enum Types
     - [ ] Lambda Expression

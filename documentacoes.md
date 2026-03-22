@@ -1,54 +1,98 @@
-# Documentacoes de Estudo
+# Documentacoes de Estudo - Java SE 21 (1Z0-830)
 
-Este arquivo organiza os materiais `.md` do projeto em uma trilha de estudo mais clara.
+Trilha organizada por blocos de estudo com links diretos para cada arquivo de definicao.
 
-## Ordem recomendada
+---
 
-1. Introducao e fundamentos
-2. Sintaxe e operadores
-3. OOP (conceitos e pratica)
-4. APIs essenciais
-5. Evolucao Java 8 -> 21
-6. Revisao e simulado
+## Ordem recomendada de estudo
 
-## 1) Introducao e fundamentos
+```
+1. Fundamentos → 2. Operadores → 3. Arrays → 4. Controle de Fluxo
+→ 5. Metodos → 6. OOP Conceitos → 7. OOP Pratica
+→ 8. APIs Essenciais → 9. Collections → 10. Evolucao Java 8-21
+→ 11. Revisao com Simulado
+```
 
-- [`introduction.md`](introduction.md) - conceitos base, ferramentas e arquitetura Java.
-- [`basic-java.md`](basic-java.md) - entrada/saida, comentarios, tipos, variaveis e conversoes.
-- [`operators.md`](operators.md) - operadores aritmeticos, logicos e precedencia.
+---
 
-## 2) Evolucao da linguagem
+## 1) Fundamentos
 
-- [`DELTAJava8to21.md`](DELTAJava8to21.md) - recursos modernos e pontos de migracao.
+| Arquivo | Conteudo |
+|---|---|
+| [`introduction.md`](introduction.md) | Conceitos base, JDK/JRE/JVM, ferramentas, arquitetura |
+| [`basic-java.md`](basic-java.md) | Entrada/saida, comentarios, tipos primitivos, variaveis, conversoes |
+| [`operators.md`](operators.md) | Aritmeticos, logicos, bitwise, precedencia |
 
-## 3) OOP
+---
 
-### 3.1 Conceitos principais
+## 2) Arrays
 
-- [`src/main/java/br/com/java/conceptsoo/concepts.md`](src/main/java/br/com/java/conceptsoo/concepts.md)
-- [`src/main/java/br/com/java/oopj/definitions.md`](src/main/java/br/com/java/oopj/definitions.md)
+| Arquivo | Conteudo |
+|---|---|
+| `src/main/java/br/com/java/arrays/` | Unidimensional, bidimensional, tridimensional, busca binaria |
 
-### 3.2 Topicos de implementacao
+---
 
-- [`src/main/java/br/com/java/oop/constructor/definitions.md`](src/main/java/br/com/java/oop/constructor/definitions.md)
-- [`src/main/java/br/com/java/oop/packages/definition.md`](src/main/java/br/com/java/oop/packages/definition.md)
-- [`src/main/java/br/com/java/oop/statics/definition.md`](src/main/java/br/com/java/oop/statics/definition.md)
-- [`src/main/java/br/com/java/oop/nestedsClasses/definition.md`](src/main/java/br/com/java/oop/nestedsClasses/definition.md)
-- [`src/main/java/br/com/java/oop/innerClasses/definition.md`](src/main/java/br/com/java/oop/innerClasses/definition.md)
+## 3) Controle de Fluxo e Metodos
 
-## 4) APIs essenciais
+| Arquivo | Conteudo |
+|---|---|
+| `src/main/java/br/com/java/controlFlow/` | if/else, ternario, for, while, do-while, switch, label loops |
+| `src/main/java/br/com/java/methods/` | Declaracao, tipos, retorno, varargs, overload |
 
-- [`src/main/java/br/com/java/wrappers/definition.md`](src/main/java/br/com/java/wrappers/definition.md) - wrappers, autoboxing e unboxing.
-- [`src/main/java/br/com/java/strings/definitions.md`](src/main/java/br/com/java/strings/definitions.md) - String, StringBuffer e StringBuilder.
-- [`src/main/java/br/com/java/collections/definitions.md`](src/main/java/br/com/java/collections/definitions.md) - base de Collections.
+---
 
-## 5) Revisao e pratica
+## 4) OOP - Conceitos
 
-- [`mock-test.md`](mock-test.md) - link para simulado.
+| Arquivo | Conteudo |
+|---|---|
+| [`src/main/java/br/com/java/conceptsoo/concepts.md`](src/main/java/br/com/java/conceptsoo/concepts.md) | Classe/Objeto, Stack/Heap, Access Modifiers, pilares OOP, convencoes |
+| [`src/main/java/br/com/java/oop/constructor/definitions.md`](src/main/java/br/com/java/oop/constructor/definitions.md) | Construtor padrao, sobrecarga, this(), super() |
+| [`src/main/java/br/com/java/oop/packages/definition.md`](src/main/java/br/com/java/oop/packages/definition.md) | Package, import, import static, conflito de nomes |
+| [`src/main/java/br/com/java/oop/statics/definition.md`](src/main/java/br/com/java/oop/statics/definition.md) | Variavel, metodo, bloco e classe aninhada estatica |
+| [`src/main/java/br/com/java/oop/nestedsClasses/definition.md`](src/main/java/br/com/java/oop/nestedsClasses/definition.md) | Static Nested, Inner, Local e Anonymous Class |
+| [`src/main/java/br/com/java/oop/innerClasses/definition.md`](src/main/java/br/com/java/oop/innerClasses/definition.md) | Foco em Local Classes (effectively final, parametros de metodo) |
 
-## Sugestao de uso
+---
 
-- Estude por bloco e anote duvidas em cada arquivo.
-- Ao fim de cada bloco, escreva 3 exemplos proprios em Java.
-- Feche com o simulado e revise os topicos com erro.
+## 5) OOP - Pratica (Heranca, Override, Polimorfismo)
 
+| Arquivo | Conteudo |
+|---|---|
+| [`src/main/java/br/com/java/oopj/definitions.md`](src/main/java/br/com/java/oopj/definitions.md) | Heranca, tipos de heranca, override, method hiding, this/super, final |
+
+---
+
+## 6) APIs Essenciais
+
+| Arquivo | Conteudo |
+|---|---|
+| [`src/main/java/br/com/java/wrappers/definition.md`](src/main/java/br/com/java/wrappers/definition.md) | Wrappers, autoboxing/unboxing, cache de Integer, metodos uteis |
+| [`src/main/java/br/com/java/strings/definitions.md`](src/main/java/br/com/java/strings/definitions.md) | String (pool, imutabilidade), StringBuffer, StringBuilder, comparativo |
+| [`src/main/java/br/com/java/collections/definitions.md`](src/main/java/br/com/java/collections/definitions.md) | List, Set, Queue, Map, tabela comparativa, quando usar cada uma |
+
+---
+
+## 7) Evolucao da Linguagem
+
+| Arquivo | Conteudo |
+|---|---|
+| [`DELTAJava8to21.md`](DELTAJava8to21.md) | Recursos modernos: lambda, streams, records, sealed classes, var, pattern matching |
+
+---
+
+## 8) Revisao e Pratica
+
+| Arquivo | Conteudo |
+|---|---|
+| [`mock-test.md`](mock-test.md) | Simulado e questoes de revisao |
+
+---
+
+## Dicas de uso
+
+1. Leia o `definitions.md` de cada topico antes de ver o codigo.
+2. Para cada secao, escreva 2-3 exemplos proprios no IntelliJ.
+3. Anote duvidas direto no arquivo `.md` como item de lista.
+4. Ao terminar um bloco, faca pelo menos 5 questoes do simulado sobre ele.
+5. Revise sempre a secao **"Pontos criticos para a prova"** de cada definition.
