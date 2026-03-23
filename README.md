@@ -138,12 +138,19 @@ Java SE 21 Developer Certified Professional
       - [x] Queue
       - [x] Deque
       - [x] Map Interface
-    - [ ] Exceptions Handling in Java
+    - [x] Exceptions Handling in Java
+      - [x] Error x Exception
+      - [x] Exception Types
+      - [x] Try - Catch Block
+      - [x] "finally" Block
+      - [x] "throw" Keyword
+      - [x] "throws" Keyword
+      - [x] "throws" x "throw" Keyword
     - [ ] Enum Types
     - [ ] Lambda Expression
     - [ ] Stream API
     - [ ] Date&Time
-    - [ ] Java IO - Imput;Output
+    - [ ] Java IO - Input;Output
     - [ ] Overview of Threads
     - [ ] Thread Creation and Management
     - [ ] Synchronization and Concurrency Control
