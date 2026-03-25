@@ -146,8 +146,13 @@ Java SE 21 Developer Certified Professional
       - [x] "throw" Keyword
       - [x] "throws" Keyword
       - [x] "throws" x "throw" Keyword
-    - [ ] Enum Types
+    - [x] Enum Types
     - [ ] Lambda Expression
+      - [ ] Marker and Functional Interfaces
+      - [ ] Lambda Expression
+      - [ ] Predicate
+      - [ ] Method Reference
+      - [ ] Switch Expression 
     - [ ] Stream API
     - [ ] Date&Time
     - [ ] Java IO - Input;Output
