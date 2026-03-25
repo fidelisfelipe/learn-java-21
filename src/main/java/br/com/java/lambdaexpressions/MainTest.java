@@ -10,7 +10,11 @@ public class MainTest {
         };
         animal.show("Cheetah", 120);
 
-        Animal animal1 = (animalName, speed) -> System.out.println("The " + animalName + " runs at " + speed + " km/h");
-        animal1.show("Snake", 10);
+        Animal animal1 = MainTest::display;
+        animal1.show("Snake", 20);
+    }
+
+    private static void display(String animalName, int speed){
+        System.out.println("The " + animalName + " runs at " + speed + " km/h");
     }
 }
