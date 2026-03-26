@@ -154,6 +154,9 @@ Java SE 21 Developer Certified Professional
       - [x] Method Reference
       - [x] Switch Expression 
     - [ ] Stream API
+      - [x] Introduction Stream
+      - [ ] Reduction Operation
+      - [ ] Paralelism and Parallel Stream
     - [ ] Date&Time
     - [ ] Java IO - Input;Output
     - [ ] Overview of Threads
