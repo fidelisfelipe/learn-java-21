@@ -3,7 +3,7 @@ package br.com.java.streams;
 import java.util.List;
 import java.util.Optional;
 
-public class ReducesExamples {
+public class ReductionExamples {
     public static void main(String[] args) {
         //number aleatorios
         List<Integer> numbers = List.of(1, 2, 3, 4, 5);
