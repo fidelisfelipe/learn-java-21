@@ -28,9 +28,10 @@ public class StreamsExamples {
         animalStream
                 .map(String::toUpperCase)
                 .forEach(System.out::println);
-        animalStream
-                .map(String::toLowerCase)
-                .forEach(System.out::println);
+//        Stream has already been linked or consumed
+//        animalStream
+//                .map(String::toLowerCase)
+//                .forEach(System.out::println);
 
     }
 }
