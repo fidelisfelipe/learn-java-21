@@ -153,10 +153,10 @@ Java SE 21 Developer Certified Professional
       - [x] Predicate
       - [x] Method Reference
       - [x] Switch Expression 
-    - [ ] Stream API
+    - [x] Stream API
       - [x] Introduction Stream
       - [x] Reduction Operation
-      - [ ] Paralelism and Parallel Stream
+      - [x] Paralelism and Parallel Stream
     - [ ] Date&Time
     - [ ] Java IO - Input;Output
     - [ ] Overview of Threads

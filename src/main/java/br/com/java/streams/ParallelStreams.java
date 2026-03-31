@@ -1,7 +1,11 @@
 package br.com.java.streams;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Set;
+import java.util.concurrent.ConcurrentMap;
+import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class ParallelStreams {
@@ -13,6 +17,26 @@ public class ParallelStreams {
         listIntegers.parallelStream()
                 .forEachOrdered(System.out::println);
 
+        //Concurrent Reduction - deve atender aos 3 criterios - Parallel, CONCURRENT, UNORDERED
+        ConcurrentMap<Boolean, List<Integer>> groupedNumbers = listIntegers
+                .parallelStream()//deve ser paralela
+                .unordered()//deve ser nao ordenada
+                .collect(Collectors.groupingByConcurrent(n-> n % 2 == 0));//deve ser concorrente
+
+        Set<Collector.Characteristics> characteristics = Collectors.groupingByConcurrent(n -> true).characteristics();
+        System.out.println("characteristics: " + characteristics);
+
+        //Ordering
+        listIntegers.stream().forEach( n -> System.out.println(n + " "));
+        System.out.println();
+
+        Comparator<Integer> reverse = Comparator.reverseOrder();
+        listIntegers.sort(reverse);
+        listIntegers.stream().forEach( n -> System.out.println(n + " "));
+
+
+
+        System.out.println("groupedNumbers" + groupedNumbers);
         //lazinies
         listIntegers.parallelStream()
                 .filter(
