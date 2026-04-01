@@ -158,6 +158,12 @@ Java SE 21 Developer Certified Professional
       - [x] Reduction Operation
       - [x] Paralelism and Parallel Stream
     - [ ] Date&Time
+      - [x] Calendar Class
+      - [x] Local Date Class
+      - [ ] Local Time Class
+      - [ ] Local Date Time Class
+      - [ ] Period  Class
+      - [ ] Date Time Formatting - DateTimeFormatter Class
     - [ ] Java IO - Input;Output
     - [ ] Overview of Threads
     - [ ] Thread Creation and Management
