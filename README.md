@@ -160,7 +160,7 @@ Java SE 21 Developer Certified Professional
     - [ ] Date&Time
       - [x] Calendar Class
       - [x] Local Date Class
-      - [ ] Local Time Class
+      - [x] Local Time Class
       - [ ] Local Date Time Class
       - [ ] Period  Class
       - [ ] Date Time Formatting - DateTimeFormatter Class
