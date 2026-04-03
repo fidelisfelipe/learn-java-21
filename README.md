@@ -163,7 +163,7 @@ Java SE 21 Developer Certified Professional
       - [x] Local Time Class
       - [x] Local Date Time Class
       - [x] Period  Class
-      - [ ] Date Time Formatting - DateTimeFormatter Class
+      - [x] Date Time Formatting - DateTimeFormatter Class
     - [ ] Java IO - Input;Output
     - [ ] Overview of Threads
     - [ ] Thread Creation and Management
