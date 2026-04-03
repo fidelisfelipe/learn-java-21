@@ -157,7 +157,7 @@ Java SE 21 Developer Certified Professional
       - [x] Introduction Stream
       - [x] Reduction Operation
       - [x] Paralelism and Parallel Stream
-    - [ ] Date&Time
+    - [x] Date&Time
       - [x] Calendar Class
       - [x] Local Date Class
       - [x] Local Time Class
