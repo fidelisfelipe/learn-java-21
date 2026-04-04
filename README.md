@@ -167,7 +167,7 @@ Java SE 21 Developer Certified Professional
     - [ ] Java IO - Input/Output
         - [x] Java IO Streams introdution
         - [x] OutputStream Class
-        - [ ] InputStream Class
+        - [x] InputStream Class
         - [ ] Write Class 1
         - [ ] Reader Class 2
         - [ ] Copy with JavaIO
