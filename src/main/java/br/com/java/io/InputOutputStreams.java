@@ -15,7 +15,7 @@ public class InputOutputStreams {
         try {
             OutputStream outputStream = new FileOutputStream("output.txt");
             byte [] data = nome.getBytes();
-            outputStream.write(data, 5, 11);//Java Programming Language
+            outputStream.write(data, 0, data.length);//Java Programming Language
             outputStream.flush();
             outputStream.close();
             System.out.println("File created successfully.");
@@ -42,11 +42,10 @@ public class InputOutputStreams {
 
             byte[] arrays = new byte[lenghtIss];
 
-            iss.skip(1);
-
-            for(int offset = 0; offset < 11; offset++) {
-                System.out.print(new String(arrays, offset, 1));
+            for(long offset = iss.skip(5); offset < 11; offset++) {
+                System.out.print(new String(arrays, Long.valueOf(offset).intValue(), 1));
             }
+            iss.close();
 
         } catch (IOException e) {
             throw new RuntimeException(e);
