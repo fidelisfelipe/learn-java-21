@@ -1,26 +1,47 @@
 package br.com.java.io;
 
+import java.io.IOException;
+
 public class Readers {
     public static void main(String[] args) {
-            try (java.io.Reader reader = new java.io.FileReader("output.txt")) {
-                reader.skip(5);// skip the first 5 characters
-                int data;
-                while ((data = reader.read()) != -1) {
-                    System.out.print((char) data);
-                }
-            } catch (java.io.IOException e) {
-                e.printStackTrace();
+        try (java.io.Reader reader = new java.io.FileReader("output.txt")) {
+            reader.skip(5);// skip the first 5 characters
+            int data;
+            while ((data = reader.read()) != -1) {
+                System.out.print((char) data);
             }
-            //lendo agora um intervalo
-            try (java.io.Reader reader = new java.io.FileReader("output.txt")) {
-                char[] buffer = new char[11];
-                reader.skip(5); // skip the first 5 characters
-                int numCharsRead = reader.read(buffer, 0, buffer.length);
-                if (numCharsRead != -1) {
-                    System.out.println("\nCharacters read: " + new String(buffer, 0, numCharsRead));
-                }
-            } catch (java.io.IOException e) {
-                e.printStackTrace();
+        } catch (java.io.IOException e) {
+            e.printStackTrace();
+        }
+        //lendo agora um intervalo
+        try (java.io.Reader reader = new java.io.FileReader("output.txt")) {
+            char[] buffer = new char[11];
+            reader.skip(5); // skip the first 5 characters
+            int numCharsRead = reader.read(buffer, 0, buffer.length);
+            if (numCharsRead != -1) {
+                System.out.println("\nCharacters read: " + new String(buffer, 0, numCharsRead));
             }
+        } catch (java.io.IOException e) {
+            e.printStackTrace();
+        }
+
+        //lendo agora um intervalo
+        try (java.io.Reader reader = new java.io.FileReader("output.txt")) {
+            String text = "";
+            int character;
+            if (reader.ready()) {
+                do {
+                    character = reader.read();
+                    if (character != -1) {
+                        text = text.concat(String.valueOf((char) character));
+                    }
+                }while(character != -1);
+            }
+            int index = text.indexOf("Java");
+            System.out.println("Index of 'Java': " + text.substring(index, index + 4));
+
+        } catch (java.io.IOException e) {
+            e.printStackTrace();
+        }
     }
 }
