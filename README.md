@@ -164,18 +164,23 @@ Java SE 21 Developer Certified Professional
       - [x] Local Date Time Class
       - [x] Period  Class
       - [x] Date Time Formatting - DateTimeFormatter Class
-    - [ ] Java IO - Input/Output
+    - [x] Java IO - Input/Output
         - [x] Java IO Streams introdution
         - [x] OutputStream Class
         - [x] InputStream Class
-        - [ ] Write Class 1
-        - [ ] Reader Class 2
-        - [ ] Copy with JavaIO
-        - [ ] Serialization and Deserialization
-        - [ ] Transient keyword
+        - [x] Write Class 1
+        - [x] Reader Class 2
+        - [x] Copy with JavaIO
+        - [x] Serialization and Deserialization
+        - [x] Transient keyword
     - [ ] Overview of Threads
-    - [ ] Thread Creation and Management
-    - [ ] Synchronization and Concurrency Control
+        - [x] Thread Class
+        - [x] Runnable Interface
+        - [x] Thread x Processes
+        - [x] Thread Manager
+        - [x] Thread State and Monitoring
+    - [x] Thread Creation and Management
+    - [x] Synchronization and Concurrency Control
     - [ ] High-level Concurrency APIs
     - [ ] Thread Coordination
     - [ ] Locks and Advanced Synchronization
