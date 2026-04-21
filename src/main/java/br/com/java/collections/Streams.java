@@ -12,7 +12,7 @@ public class Streams {
         // verifico se nenhum elemento da lista é igual a "Labour" com noneMatch
         System.out.print(specialDays.stream().noneMatch(s -> s.equals("Helloween")));
 
-        // verifico se a lista está vazia com findFirst
+        // verifico se a lista está vazia com findFirst - retorna - [NewYear] pois é um optional
         System.out.print(specialDays.stream().findFirst());
     }
 }
