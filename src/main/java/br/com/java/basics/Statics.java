@@ -8,12 +8,12 @@ class Course{
         System.out.print(name);
 
     }
-
+/**
     public static void getName(){
         name = "Java name";//Non-static field 'name' cannot be referenced from a static context
         System.out.print(name);
 
-    }
+    }**/
 }
 public class Statics {
     public static void main(String[] args) {
